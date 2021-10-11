@@ -1,0 +1,10 @@
+include AUTHORS.rst
+include CONTRIBUTING.rst
+include CHANGELOG.rst
+include LICENSE
+include README.rst
+recursive-exclude kolibri_daemon_auth/* *pyc
+recursive-exclude kolibri_daemon_auth/assets *
+recursive-include kolibri_daemon_auth/templates *.*
+recursive-include kolibri_daemon_auth/static *.*
+recursive-include kolibri_daemon_auth/build *.json
